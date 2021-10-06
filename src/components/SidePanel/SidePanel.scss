@@ -1,0 +1,51 @@
+$headerBkg: #343434;
+$textColor: #ffffff;
+
+.Project--name {
+  text-transform: uppercase;
+  background-color: $headerBkg;
+  padding: 5px;
+  color: $textColor;
+}
+span.Listing--span {
+  float: right;
+}
+div.Panel--items {
+  cursor: pointer;
+  padding: 5%;
+  .Top-level--item {
+    margin: 10px 0 0;
+  }
+  div.Top--item {
+    width: 100%;
+    display: block;
+  }
+  li {
+    width: 100%;
+    display: table-cell;
+    padding: 5px 5px 5px 0px;
+    vertical-align: middle;
+    .Top--item {
+      display: block;
+    }
+    .Top-level--item {
+      list-style-type: none;
+    }
+  }
+  ul.Inner-Items--pane {
+    cursor: pointer;
+    margin: 0;
+    width: 90%;
+    list-style-type: none;
+    div.Line--row  {
+      width: 100%;
+      padding: 8px 0 8px 0;
+      cursor: pointer;
+      margin: 0 0px 0 -10px;
+      display: block;
+    }
+  }
+  svg.icon {
+    margin-bottom: -9px;
+  }
+}
